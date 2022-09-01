@@ -1,3 +1,5 @@
+#This application will read a file from a csv and add it to our code
+
 import csv
 
 
