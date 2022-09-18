@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>LogIn/SignUp</title>
+        <style>
+            body {
+            margin: 0px;
+            background-image: url("back.jpg");
+            background-repeat: no-repeat;
+            background-size:200%;
+            }
+
+            h1 {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 106px;
+            font-style: oblique;
+            color: rgb(217, 213, 239);
+            text-align: center;
+            margin-top: 5%;
+            margin-bottom: 0px;
+            }
+
+            .slogan {
+            padding-top:2px;
+            text-align:center;
+            color:white;
+            font-style:italic;
+            margin:2px;
+            }
+
+            .log-box {
+            background-color: #d5d8ff;
+            border-radius: 15px;
+            height: 450px;
+            margin: auto;
+            width: 560px;
+            margin-top: 40px;
+
+            }
+
+            input[type=text]{
+            margin: 50px 0px 0px 40px;
+            padding-top: 3px;
+            width: 82%;
+            border-radius: 15px;
+            height: 40px;
+            border: 1px solid black;
+            padding:10px 12px;
+            }
+             input[type=button]{
+            margin: 20px 0px 0px 40px;
+            width: 32%;
+            height: 40px;
+            border: 1px solid black;
+            padding: 10px 12px;
+            margin-left: 180px;
+            background-color: beige;
+            }
+            input[type=password]{
+            margin-top: 35px;
+            padding-top: 3px;
+            width: 82%;
+            border-radius: 15px;
+            height: 40px;
+            margin-left: 40px;
+            border: 1px solid black;
+            padding:10px 12px;
+            }
+            #signlink{
+            text-align: center;
+            color: blue;
+            padding-top: 5%;
+            font-size: 30px;
+            font-family: serif;
+            font-style: normal;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        <h1>Fiztech Hub</h1>
+            <p class="slogan">A world where Tech enthusiast connects...</p>
+            <div class="log-box">
+                <p id="signlink">Log in/<a href="SignUp.html">SignUp</a></span> </p>
+                <form>
+                    <input type="text" id="Username" placeholder="Email Adress@Gmail.com">
+                    <label for="Username"></label>
+                 </form>
+                  <form>
+                    <input type="password" id="password" placeholder="Password">
+                    <label for="password"></label>
+                 </form>
+                <form>
+                    <input  type="button" id="Login" name="LogIn" value="LogIn">
+                    <label for="LogIn"></label>
+                 </form>
+            </div>
+    </body>
+</html>
